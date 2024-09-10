@@ -1,0 +1,41 @@
+##################################################################################
+# 
+# CNI_001.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName=ValiduserAnn
+isDTMF=true
+isAnnouncement=false
+menuID=MemberShipAnn
+language=DEFAULT
+reportEnabled=false
+
+########################
+# Grammars
+########################
+#voiceGrammar=pin_mismatch*specialist.grxml
+#voiceGrammarsUseSlots = DEFAULT
+mediaTypeDTMF=application/srgs+xml
+mediaTypeVoice=application/srgs+xml
+dtmfGrammar=Grammar_Star.grxml
+dtmfGrammarsUseSlots=DEFAULT
+
+########################
+# Prompt & Collect
+########################
+initialPrompt= DEFAULT
+rePromptNoInput=InvalidInput.wav|InvalidInput.wav
+rePromptNoMatch=InvalidInput.wav|InvalidInput.wav
+menuOptions=DEFAULT
+
+#noMatchMaxTryPrompt = TTS:I'm not getting it. I'll repeat that one.:telephone
+#noInputMaxTryPrompt = TTS:I'm not getting it. I'll repeat that one.:telephone
+
+
+#terminatingChar = #
